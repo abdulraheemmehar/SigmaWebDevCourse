@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Sizing</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    .box{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 1024px; */
+        background-color: aquamarine;
+        width: 80vw;
+        margin: auto;
+        height: 10vh;
+    }
+
+    .container{
+        box-sizing: border-box;
+        border: 2px solid black;
+        /* width: 1024px; */
+        background-color: aquamarine;
+        width: 80vw;
+        margin: 20px auto;
+        /* height: 80vh; */
+        font-size: 16px;
+        min-height: 80vh;
+    }
+    .container p{
+        font-size: 2em;
+    }
+
+    .footer{
+        border: 2px solid black;
+        box-sizing: border-box;
+        width: 80vw ;
+        margin: auto;
+    }
+</style>
+<body>
+    <div class="box">
+        This is a box.
+    </div>
+
+    <div class="container">
+        <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum temporibus suscipit autem sunt, repudiandae doloribus eos tenetur eveniet quod ratione nesciunt expedita est hic, odit unde nihil, omnis facere quasi. Accusantium laudantium aperiam voluptas, dolor quas, molestias velit quisquam qui hic ullam ipsa, quae natus. Incidunt ullam natus consequuntur aspernatur nulla dignissimos ea neque nostrum tempore.
+        </p>
+        <div>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa, asperiores quam, aliquam, maxime sequi dolore temporibus sint libero officia beatae repellat veniam ad ea assumenda! Mollitia corrupti facere harum dolorem, repellendus quaerat cum necessitatibus perferendis nihil beatae autem omnis ipsa unde sit ea distinctio maiores ducimus eveniet suscipit provident labore praesentium corporis quae! Totam possimus delectus quidem unde deleniti illo aut corrupti, dolores recusandae, veritatis nisi hic officia fuga veniam expedita eligendi vel porro ex tenetur excepturi similique temporibus mollitia perspiciatis! Magnam vitae quia hic nisi asperiores laboriosam velit rem accusantium aspernatur, sit ab enim dolorum sapiente laborum dolore cumque corrupti nihil et saepe. Sequi, commodi obcaecati nam nesciun
+        </div>
+        
+    </div>
+
+    <div class="footer">
+        Hi I am another div. They call me footer. 
+    </div>
+</body>
+</html>
